@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_bar"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="姓名:" />
+
+                <EditText
+                    android:id="@+id/open_debt_name"
+                    style="@style/et_style"
+                    android:hint="请输入真实姓名" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="身份证号:"
+
+                    />
+
+                <EditText
+                    android:id="@+id/open_organization_code"
+                    style="@style/et_style"
+                    android:hint="请输入身份证号" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="手机号:" />
+
+                <EditText
+                    android:id="@+id/open_phone"
+                    style="@style/et_style"
+                    android:hint="可用于登录和找回密码" />
+            </LinearLayout>
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="密码:" />
+
+                <EditText
+                    android:id="@+id/open_mima"
+                    style="@style/et_style"
+                    android:hint="请设置密码" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="确认密码:" />
+
+                <EditText
+                    android:id="@+id/open_queren_mima"
+                    style="@style/et_style"
+                    android:hint="再次确认密码" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="推荐编码:" />
+
+                <EditText
+                    android:id="@+id/open_tjbm"
+                    style="@style/et_style"
+                    android:enabled="false"
+                    android:hint="请输入推荐人的推荐编码" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/line_layout">
+
+                <TextView
+                    style="@style/tv_style"
+                    android:text="从业地址:" />
+
+                <LinearLayout style="@style/et_style">
+
+                    <include layout="@layout/spinner"></include>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp">
+
+                <Button
+                    android:id="@+id/open_others"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/login_btn"
+                    android:gravity="center"
+                    android:text="开通债行"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

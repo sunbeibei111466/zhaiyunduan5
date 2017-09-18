@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/fu_bainkuang"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        >
+
+        <LinearLayout style="@style/zwr_zc_style">
+
+            <TextView
+                style="@style/zwr_txteview_zc_style"
+                android:text="名称" />
+
+            <EditText
+                android:id="@+id/zqr_zc_name"
+                android:gravity="center_vertical"
+                style="@style/zwr_editview_zc_style" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/zwr_zc_style">
+
+            <TextView
+                style="@style/zwr_txteview_zc_style"
+                android:text="类型" />
+
+            <EditText
+                android:id="@+id/zqr_zc_leixing"
+                android:saveEnabled="false"
+                android:gravity="center_vertical"
+                style="@style/zwr_editview_zc_style" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/zwr_zc_style">
+
+            <TextView
+                style="@style/zwr_txteview_zc_style"
+                android:text="估值" />
+
+            <EditText
+                android:id="@+id/zqr_zc_guzhi"
+                style="@style/zwr_editview_zc_style"
+                android:inputType="number"
+                android:gravity="center_vertical"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/zwr_zc_style">
+
+            <TextView
+                style="@style/zwr_txteview_zc_style"
+                android:text="数量" />
+
+            <EditText
+                android:id="@+id/zqr_zc_shul"
+                style="@style/zwr_editview_zc_style"
+                android:inputType="number"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/zwr_zc_style"
+            android:layout_marginTop="10dp"
+            >
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/queren_zwr"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:text="确认"
+                android:textColor="@color/bai"
+                android:gravity="center"
+                android:background="@drawable/debt_zer_hong"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+            <Button
+                android:id="@+id/quxiao_zwr"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="2"
+                android:text="取消"
+                android:textColor="@color/bai"
+                android:gravity="center"
+                android:background="@drawable/debt_zer_hui"
+                />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

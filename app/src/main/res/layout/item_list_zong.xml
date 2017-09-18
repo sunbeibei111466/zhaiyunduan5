@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:orientation="horizontal"
+        android:background="#eee"
+        >
+
+
+        <TextView
+            android:id="@+id/name_dialog_z"
+            style="@style/zwr_list_feilie_style"
+            />
+
+        <TextView
+            android:id="@+id/leixin_dialog_z"
+            style="@style/zwr_list_feilie_style"
+            />
+
+        <TextView
+            android:id="@+id/jiazhi_dialog_z"
+            style="@style/zwr_list_feilie_style"
+            />
+
+        <TextView
+            android:id="@+id/shuliang_dialog_z"
+            style="@style/zwr_list_feilie_style"
+            />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

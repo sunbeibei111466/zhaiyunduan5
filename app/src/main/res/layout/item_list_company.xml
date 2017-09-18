@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:orientation="horizontal"
+        android:background="#eee"
+    >
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/name_dialog"
+            style="@style/zwr_list_feilie_style"
+            android:text="dfdffadbdfbf"
+        />
+
+        <TextView
+            android:id="@+id/leixin_dialog"
+            style="@style/zwr_list_feilie_style"
+            android:text="dfdffadbdfbf"
+            />
+
+        <!--<com.jlgproject.view.AlwaysMarqueeTextView-->
+            <!--android:id="@+id/leixin_dialog"-->
+            <!--style="@style/zwr_list_feilie_style"-->
+            <!--/>-->
+
+        <TextView
+            android:id="@+id/jiazhi_dialog"
+            style="@style/zwr_list_feilie_style"
+        />
+
+        <TextView
+            android:id="@+id/shuliang_dialog"
+            style="@style/zwr_list_feilie_style"
+        />
+
+
+        <LinearLayout
+            android:id="@+id/delete_dialog"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/delete"
+            />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+        />
+
+
+    </LinearLayout>
+
+</LinearLayout>

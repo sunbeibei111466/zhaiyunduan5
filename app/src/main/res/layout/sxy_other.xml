@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buness_liner"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_item_sxy2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@mipmap/logo"
+            android:scaleType="fitXY"
+            />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_title_sxy2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="中金债事智慧云"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="6dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="#333"
+                />
+
+            <TextView
+                android:id="@+id/tv_jianjian_sxy2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="14sp"
+                android:paddingLeft="6dp"
+                android:ellipsize="end"
+                android:lines="1"
+                android:gravity="center_vertical"
+                android:text=""
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:id="@+id/tv_jianshi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:text="讲师:罗谗言"
+                    android:textSize="13sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="6dp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:text="时间:2017-02-26"
+                    android:textSize="13sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="6dp"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
